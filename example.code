@@ -1,10 +1,12 @@
-var a = 5;
+function main(showLast) {
+    for (var i = 0; i < 10; i = i + 1) {
+        print(i);
+    }
 
-if a > 6 {
-  print(1);
-} else {
-  print(3);
+    if (showLast == 1) {
+        print(i);
+    }
 }
 
 
-print(777);
+main(1);
